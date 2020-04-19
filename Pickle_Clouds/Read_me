@@ -1,1 +1,24 @@
+File information:
 
+2019-04-25_exp01: (all Tile Width)
+    Padded with zero LES feature with inflated Cov. 
+    We are discarding more as LES burnin.
+    Start_cycles = [int(4.5*60),int(7.5*60)]
+    End_cycles = [int(8*60),int(12*60)]
+    
+2019-04-25_exp02(a/b):
+    Only TW8
+    Padded with zero LES feature with inflated Cov. 
+    We are discarding more as LES burnin.
+    The splits in "dense" vs. "sparse" morphologies are given by:
+    Start_cycles = [int(4.5*60),int(7.5*60)]
+    End_cycles = [int(8*60),int(12*60)]
+    
+2019-04-25_exp03:
+    Inflated Cov
+    LES defined as: 
+        -LES feature is averaged only where clouds exists (no padded zeros)
+        -Chop the tails of the LES based on if 10 clouds exist or not
+    We are discarding more as LES burnin.
+    Start_cycles = [int(4.5*60),int(7.5*60)]
+    End_cycles = [int(8*60),int(12*60)]
